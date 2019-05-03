@@ -19,7 +19,7 @@ let contactoSchema = new Schema({
         required: [true, 'El correo es necesario']
     },
     fechaNacimiento: {
-        type: Date,
+        type: String,
         required: [true, 'La fecha de nacimiento es obligatorio']
     },
     foto: {
